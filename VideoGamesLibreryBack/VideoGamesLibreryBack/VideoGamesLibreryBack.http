@@ -1,0 +1,6 @@
+@VideoGamesLibreryBack_HostAddress = http://localhost:5291
+
+GET {{VideoGamesLibreryBack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
