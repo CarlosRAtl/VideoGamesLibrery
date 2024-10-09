@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoGamesLibreryBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99f24431ea468d95a1518b5e3753c6c36ad2a078")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoGamesLibreryBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoGamesLibreryBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
