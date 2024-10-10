@@ -6,6 +6,8 @@ namespace VideoGamesLibreryBack.ModelDB
     [Table("Games")]
     public class Games
     {
+        [Key]
+        public string? GameId { get; set; }
         [StringLength(255)]
         public string? GameName { get; set; }
         public int Quantity { get; set; }
@@ -20,3 +22,4 @@ namespace VideoGamesLibreryBack.ModelDB
         public bool IsProtected { get; set; }
     }
 }
+
