@@ -10,12 +10,6 @@ namespace VideoGamesLibreryBack.DbSet
             
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Games>()
-                .HasNoKey(); // Configura la entidad como sin clave
-        }
-
         public DbSet<Games> Games { get; set; }
     }
 }
