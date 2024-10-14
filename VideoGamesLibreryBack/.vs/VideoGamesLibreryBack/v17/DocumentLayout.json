@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\source\\VideoGamesLibrery\\VideoGamesLibreryBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|d:\\source\\videogameslibrery\\videogameslibreryback\\videogameslibreryback\\controllers\\gamesconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|solutionrelative:videogameslibreryback\\controllers\\gamesconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|d:\\source\\videogameslibrery\\videogameslibreryback\\videogameslibreryback\\modeldb\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|solutionrelative:videogameslibreryback\\modeldb\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|d:\\source\\videogameslibrery\\videogameslibreryback\\videogameslibreryback\\controllers\\gamesconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|solutionrelative:videogameslibreryback\\controllers\\gamesconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C903F90D-5434-45A1-9E72-AE5BFDB6F309}|VideoGamesLibreryBack\\VideoGamesLibreryBack.csproj|d:\\source\\videogameslibrery\\videogameslibreryback\\videogameslibreryback\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameConsole.cs",
               "DocumentMoniker": "D:\\source\\VideoGamesLibrery\\VideoGamesLibreryBack\\VideoGamesLibreryBack\\ModelDB\\GameConsole.cs",
               "RelativeDocumentMoniker": "VideoGamesLibreryBack\\ModelDB\\GameConsole.cs",
               "ToolTip": "D:\\source\\VideoGamesLibrery\\VideoGamesLibreryBack\\VideoGamesLibreryBack\\ModelDB\\GameConsole.cs",
               "RelativeToolTip": "VideoGamesLibreryBack\\ModelDB\\GameConsole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T03:51:55.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GamesConsolesController.cs",
               "DocumentMoniker": "D:\\source\\VideoGamesLibrery\\VideoGamesLibreryBack\\VideoGamesLibreryBack\\Controllers\\GamesConsolesController.cs",
               "RelativeDocumentMoniker": "VideoGamesLibreryBack\\Controllers\\GamesConsolesController.cs",
               "ToolTip": "D:\\source\\VideoGamesLibrery\\VideoGamesLibreryBack\\VideoGamesLibreryBack\\Controllers\\GamesConsolesController.cs",
               "RelativeToolTip": "VideoGamesLibreryBack\\Controllers\\GamesConsolesController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwE0AAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T03:31:34.578Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "VideoGamesLibreryBack\\Controllers\\GamesController.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAQwFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T03:31:08.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T03:31:08.186Z"
             }
           ]
         }
