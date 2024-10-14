@@ -11,5 +11,6 @@ namespace VideoGamesLibreryBack.DbSet
         }
 
         public DbSet<Games> Games { get; set; }
+        public DbSet<GameConsole> GameConsoles { get; set; }
     }
 }

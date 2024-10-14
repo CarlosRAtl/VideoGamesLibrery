@@ -20,9 +20,16 @@ namespace VideoGamesLibreryBack.Controllers
         [HttpGet("ViewGames")]
         public ActionResult<IEnumerable<Games>> Get(string? gameId)
         {
-            if (gameId == null) return Ok(_context.Games.ToList());
+            try
+            {
+                if (gameId == null) return Ok(_context.Games.ToList());
 
-            return Ok(_context.Games.Where(g => g.GameId == gameId).FirstOrDefault());
+                return Ok(_context.Games.Where(g => g.GameId == gameId).FirstOrDefault());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
         [HttpPost("SaveGame")]
@@ -81,8 +88,10 @@ namespace VideoGamesLibreryBack.Controllers
 
                     _context.Games.Update(found);
                     await _context.SaveChangesAsync();
+                    return Ok(await _context.Games.Where(g => g.GameId == gameId).FirstOrDefaultAsync());
                 }
-                return Ok(await _context.Games.Where(g => g.GameId == gameId).FirstOrDefaultAsync());
+
+                return NotFound();
             }
             catch (Exception ex)
             {
